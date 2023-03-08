@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "flask-boilerplate-2"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.3"
+instagrapi = "^1.16.41"
+Pillow = "^9.4.0"
+python-dotenv = "^1.0.0"
+flask-sqlalchemy = "^3.0.3"
+flask-migrate = "^4.0.4"
+flask-wtf = "^1.1.1"
+flask-login = "^0.6.2"
+email-validator = "^1.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
